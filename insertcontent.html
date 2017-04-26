@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>内容管理</title>
+		<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
+		<link rel="stylesheet" href="css/insertcontent.css" />
+		<link rel="stylesheet" href="bootstrap-3.3.7-dist/css/bootstrap.css" />
+		<script src="bootstrap-3.3.7-dist/jquery/jquery-3.1.1.min.js"></script>
+		<script src="bootstrap-3.3.7-dist/js/bootstrap.js"></script>
+		<style type="text/css">
+			.btn {
+			    display: inline-block;
+			    padding: 6px 12px;
+			    margin-bottom: 0;
+			    font-size: 14px;
+			    font-weight: normal;
+			    line-height: 1.42857143;
+			    text-align: center;
+			    white-space: nowrap;
+			    vertical-align: middle;
+			    -ms-touch-action: manipulation;
+			    touch-action: manipulation;
+			    cursor: pointer;
+			    -webkit-user-select: none;
+			    -moz-user-select: none;
+			    -ms-user-select: none;
+			    user-select: none;
+			    background-image: none;
+			    border: 1px solid transparent;
+			    border-radius: 4px;
+			    color: black;
+			}
+			.main .btn{
+				display: inline-block;
+			    padding: 6px 12px;
+			    margin-bottom: 0;
+			    font-size: 14px;
+			    font-weight: normal;
+			    line-height: 1.42857143;
+			    text-align: center;
+			    white-space: nowrap;
+			    vertical-align: middle;
+			    -ms-touch-action: manipulation;
+			    touch-action: manipulation;
+			    cursor: pointer;
+			    -webkit-user-select: none;
+			    -moz-user-select: none;
+			    -ms-user-select: none;
+			    user-select: none;
+			    background-image: none;
+			    border: 1px solid transparent;
+			    border-radius: 4px;
+			    color: white;
+			}
+		</style>
+		
+		
+		
+	</head>
+	<body>
+		<nav class="navbar navbar-default" role="navigation">
+   	<div class="container">
+   		 <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" 
+         data-target="#example-navbar-collapse">
+         <span class="sr-only">切换导航</span>
+         <span class="icon-bar"></span>
+         <span class="icon-bar"></span>
+         <span class="icon-bar"></span>
+      </button>
+     <a class="navbar-brand" href="#">Maizi Admin</a>
+   </div>
+   <div class="collapse navbar-collapse" id="example-navbar-collapse">
+     <ul class="nav navbar-nav">
+         <li class="active"><a href="#"><span class="glyphicon glyphicon-home"></span>&nbsp;&nbsp;后台首页</a></li>
+         <li><a href="#"><span class="glyphicon glyphicon-user"></span>&nbsp;&nbsp;用户管理</a></li>
+         <li><a href="#"><span class="glyphicon glyphicon-list-alt"></span>&nbsp;&nbsp;内容管理</a></li>
+         <li><a href="#"><span class="glyphicon glyphicon-tags"></span>&nbsp;&nbsp;标签管理</a></li>
+   
+      </ul>
+      <a href="#" class="btn navbar-btn navbar-right"> <span class="glyphicon glyphicon-off"></span>&nbsp;&nbsp;退出</a>
+      <a href="#" class="btn navbar-btn navbar-right">admin <span class="caret"></span></a>
+   </div>
+   	</div>
+  
+</nav>
+
+
+
+<div class="main">
+	<div class="container">
+		<div class="col-md-2 col-xs-12">
+			
+				<ul class="nav nav-pills nav-stacked">
+					  <li role="presentation"><a href="#">内容管理</a></li>
+					  <li role="presentation"  class="active"><a href="#">添加内容</a></li>
+					  
+				</ul>
+		
+			
+			
+			
+		</div>
+		<div class="col-md-10 col-xs-12">
+		  <h4>内容管理</h4>
+		  <ul class="nav nav-tabs">
+		    <li role="presentation"><a href="#">内容管理</a></li>
+		    <li role="presentation" class="active"><a href="#">添加内容</a></li>
+		    
+		  </ul>
+		 <h5>标题</h5>
+		 <form action="">
+		 	<input type="text" placeholder="请输入文章标题" class="form-control" />
+		 </form>
+	     <h5>文章内容</h5>
+	     <form action="">
+	     	<textarea name="" placeholder="请输入文章内容" rows="12" cols="" class="form-control"></textarea>
+	     </form>
+	      <div class="four">
+	         <p> <input type="checkbox" />全局置顶<span style="float: right;"><a href="#" class="btn btn-primary">发布文章</a></span> </p>
+	         
+	      </div>
+	     
+	     
+         <div class="footer">
+                 <p>Copyright @ 2012-2015 www.hao123education.com 墨ICP备13010088号-4</p>
+         </div>
+        
+	     
+	     
+		</div>
+	</div>
+</div>
+		
+		
+		
+	</body>
+</html>
